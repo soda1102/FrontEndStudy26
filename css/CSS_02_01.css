@@ -1,0 +1,10 @@
+/*css 외부파일(확장자가 css이기 때문에 style 안씀)*/
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ margin: 20px;
+}
+
+h1 {
+ border-bottom: 2px solid green;
+}
