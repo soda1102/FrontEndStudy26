@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Flex 속성 실습</title>
+     <style>
+     .container {
+     display: flex;
+     gap: 20px;
+     padding: 20px;
+     border: 2px solid #333;
+     margin: 20px;
+     }
+
+     .card {
+     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+     color: white;
+     padding: 20px;
+     border-radius: 10px;
+     text-align: center;
+     }
+
+     .card1 { flex: 1; }
+     .card2 { flex: 1; }
+     .card3 { flex: 1; }
+     </style>
+</head>
+<body>
+     <div class="container">
+     <div class="card card1">카드 1<br>간단한 내용</div>
+     <div class="card card2">카드 2<br>보통 내용입니다</div>
+     <div class="card card3">카드 3<br>짧음</div>
+     </div>
+</body>
+</html>
