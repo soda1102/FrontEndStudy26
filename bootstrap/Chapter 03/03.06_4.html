@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부트스트랩 아이콘 실습</title>
+    <!-- 부트스트랩 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 부트스트랩 아이콘 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+    .icon-large {
+        font-size: 3rem;
+        color: #6f42c1;
+    }
+
+    .icon-hover:hover {
+        color: #0d6efd;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+    }
+
+    .icon-rotate {
+        animation: rotate 2s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>스타일링된 아이콘들</h2>
+        <div class="text-center">
+            <i class="bi bi-star-fill icon-large me-4"></i>
+            <i class="bi bi-heart-fill icon-large icon-hover me-4" style="color: #dc3545;"></i>
+            <i class="bi bi-gear-fill icon-large icon-rotate"></i>
+        </div>
+    </div>
+</body>
+</html>
